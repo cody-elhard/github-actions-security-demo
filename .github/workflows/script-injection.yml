@@ -3,6 +3,10 @@ on:
   issues:
     types:
       - opened
+
+env:
+  my-secret: 'This is a secret'
+
 jobs:
   assign-label:
     runs-on: ubuntu-latest
